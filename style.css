@@ -53,11 +53,35 @@ main-flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
-#pink-s{
+#purple-s{
     background-color: #ee82ee;
     height: 80%;
     width: 50%;
+    margin: 0 auto;
 }
+.container-w{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: dashed 1px;
+}
+.pink-s{
+    background-color: #ffc0cb;
+    height: 80%;
+    width: 25%;
+    margin: 0 ;
+}
+.cyan-s{
+    background-color: #1e90ff;
+    height: 80%;
+    width: 50%;
+    margin: 0 ;
+}
+
+
 /* #endregion main */
