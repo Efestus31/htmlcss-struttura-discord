@@ -9,42 +9,24 @@
 }
 .debug *{
     border: 1px dashed;
-    padding: 0.8rem;
-    
-}
-.debug header{
-
-}
+} 
 /* #endregion utility */
 
 /* #region header */
-#header_flex_1{
+#header-flex-1{
+    background-color: #1c8aaf;
     height: 50px;
-    background: #add8e6;
-    margin-bottom: 4rem;
+    width: 100%;
     padding: 2px;
-}
-.logo{
-
-
-}
-nav{
-
-}
-.login{
-
 }
 .container{
     background-color: #daa520;
     width: 80%;
     margin: auto;
+    height: 10px;
     padding: 0.5rem;
-    
-    
+    box-sizing: border-box;
 }
-
-
-
 .d-flex{
     display: flex;
     justify-content: space-between;
@@ -53,6 +35,29 @@ nav{
 }
 
 .h-100{
+    max-height: 30px;
     height: 100%;
+    padding-top: 10 px;
 }
 /* #endregion header */
+
+/* #region main */
+main-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-b{
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+}
+#pink-s{
+    background-color: #ee82ee;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;   
+}
+/* #endregion main */
