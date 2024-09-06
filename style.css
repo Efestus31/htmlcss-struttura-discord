@@ -45,7 +45,9 @@
 main-flex{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+
 }
 .container-b{
     background-color: blue;
@@ -56,8 +58,5 @@ main-flex{
     background-color: #ee82ee;
     height: 80%;
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-self: center;   
 }
 /* #endregion main */
