@@ -48,7 +48,7 @@ main-flex{
 }
 .container-b{
     background-color: blue;
-    height: 300px;
+    height: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -60,9 +60,10 @@ main-flex{
     width: 50%;
     margin: 0 auto;
 }
+/* container1 */
 .container-w{
-    background-color: white;
-    height: 300px;
+    background-color: #ffffff;
+    height: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -82,6 +83,31 @@ main-flex{
     width: 50%;
     margin: 0 ;
 }
+
+/* container 2 */
+.container-g{
+    background-color: #d3d3d3;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed 1px;
+}
+.pink-s{
+    background-color: #ffc0cb;
+    height: 80%;
+    width: 25%;
+    margin: 0 ;
+}
+.cyan-s{
+    background-color: #1e90ff;
+    height: 80%;
+    width: 50%;
+    margin: 0 ;
+}
+
+
 
 
 /* #endregion main */
