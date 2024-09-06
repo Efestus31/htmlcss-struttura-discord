@@ -43,16 +43,17 @@
 
 /* #region main */
 main-flex{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 0 auto;
+    
 
 }
 .container-b{
     background-color: blue;
     height: 300px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 #pink-s{
     background-color: #ee82ee;
